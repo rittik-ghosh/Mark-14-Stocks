@@ -1,0 +1,46 @@
+*{
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-color: aliceblue;
+    text-align: center;
+    border:2px solid green;
+    margin: 2rem 18rem;
+    border-radius: 3px;
+   }
+label{
+    display: block;
+    margin:1rem;
+    padding: 22px;
+    font-size: large;
+    font-weight: bold;
+    color:green;
+}
+input{
+    padding: 1rem;
+}
+#maincontainer{
+    margin: auto;
+    text-align: center;
+    background-color: aquamarine;
+
+}
+#btn{
+    font-size: large;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    margin: 1rem;
+
+}
+#outputDisplay{
+    background-color:#7A74DE ;
+    font-size: x-large;
+    font-weight: bold;
+    color:#35344C;
+    border-radius: 6px;
+    margin: 1rem 3rem;
+    margin-bottom: 0px;
+    padding: 1rem;
+    opacity: 0.8;
+}
