@@ -22,12 +22,14 @@ function calculateProfitAndLoss(initial, quantity, current) {
     output.innerText = `Hey, the loss is ${loss} and the percent loss is ${lossPercentage.toFixed(
       2
     )}%`;
+    document.body.style.backgroundColor = "#FFAEA1";
   } else if (initial < current) {
     var profit = (current - initial) * quantity;
     var profitPercentage = (profit / (initial * quantity)) * 100;
     output.innerText = `Hey, the profit is ${profit} and the percent profit is ${profitPercentage.toFixed(
       2
     )}%`;
+    document.body.style.backgroundColor = "#C9FBB5";
   } else {
     output.innerText = `You didn't lose anything but you didn't gain anything either`;
   }
